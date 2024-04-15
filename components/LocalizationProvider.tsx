@@ -10,6 +10,5 @@ children: React.ReactNode }) {
   )
 }
 
-export default App;
 
 export default LocalizationProviderWrapper;
