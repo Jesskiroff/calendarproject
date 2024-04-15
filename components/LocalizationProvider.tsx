@@ -1,5 +1,5 @@
-import { LocalizationProvider } from '@mui/x-date-pickers';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 
 function App({ children }) {
   return (
@@ -8,3 +8,5 @@ function App({ children }) {
     </LocalizationProvider>
   );
 }
+
+export default App;
